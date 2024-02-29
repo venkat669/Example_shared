@@ -7,6 +7,8 @@ public class hlo {
         System.out.println("this prints after two lines as the above sout statement has a \\n at the end");
 
        // was testing scanner class , no worry
+        int a = 10;
+        System.out.println(a + " tis is commit exa");
         Scanner sca = new Scanner(System.in);
         int ash = sca.nextInt();
         System.out.println("number "+ash);
