@@ -9,8 +9,11 @@ public class hlo {
        // was testing scanner class , no worry
         int a = 10;
         System.out.println(a + " tis is commit exa");
+        System.out.println("hello");
         Scanner sca = new Scanner(System.in);
         int ash = sca.nextInt();
         System.out.println("number "+ash);
+        int sum = ash+ash;
+        System.out.println(sum);
     }
 }
