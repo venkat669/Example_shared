@@ -1,6 +1,19 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+class str{
+    String str;
+    int anda;
+    void str(){
+        System.out.println(this .str);
+        System.out.println(this.anda);
+    }
+
+    public static void main(String[] args) {
+        System.out.println("ptiny");
+
+    }
+}
 public class OOPS_conp1 {
     static class Student{
         int rno;
@@ -93,6 +106,13 @@ public class OOPS_conp1 {
         System.out.println(c + "  "+ d);
         swaps(c,d);  // here values are passed to the function but change made internally is not reflected outside the function
         System.out.println(c + "  "+ d);
+        str acd = new str();
+        acd.str = "hello";
+        acd.anda = 10;
+        acd.str(); // when defining a class within a class , we use static
+        // we cant use a non static method inside a static method
+        // obj and ref concept is used
+
 //        s2.Student(s1);
     }
 }
