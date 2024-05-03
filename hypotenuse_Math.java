@@ -8,7 +8,7 @@ public static void main(String[] args){
     int a =  sc.nextInt();
     System.out.println("enter the 2nd side");
     int b =  sc.nextInt();
-    double c = Math.sqrt((a*a)+(b*b));  // Hypo ==   c^2= a^2 + b^2
+    double c = Math.sqrt((a*a)+(b*b));  // Hypo ==   c^2= oops_exa.Package_exa.a^2 + b^2
     System.out.println("the 3rd side "+Math.round(c));
 }
 }

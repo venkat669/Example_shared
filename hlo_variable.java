@@ -17,6 +17,6 @@ public class hlo_variable {
         temp= x;
         x=a;
         a=temp;
-        System.out.println(x+"   "+a); //thus x is swapped with a
+        System.out.println(x+"   "+a); //thus x is swapped with oops_exa.Package_exa.a
     }
 }

@@ -15,14 +15,14 @@ public class Linear_Search {
         int x;
         System.out.println("enter the element to be found");
         x = sc.nextInt();
-        //to search a string
+        //to search oops_exa.Package_exa.a string
         if(search(arr,x,n)){
             System.out.println("ele is present");
         }
         else {
             System.out.println("No ele");
         }
-        System.out.println("enter a string");
+        System.out.println("enter oops_exa.Package_exa.a string");
         sc.nextLine();
         String str = sc.nextLine();
     }

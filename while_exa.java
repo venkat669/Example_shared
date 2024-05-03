@@ -9,7 +9,7 @@ public class while_exa {
         name=sc.nextLine();
        while (name.isBlank()){
            name=sc.nextLine();
-       }//   this while loop continues till  name is kept empty ( until name is given a string value);
+       }//   this while loop continues till  name is kept empty ( until name is given oops_exa.Package_exa.a string value);
         System.out.println("hlo " +name);
     }
 }
