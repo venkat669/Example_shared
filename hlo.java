@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class hlo {
     public static void main(String[] args){
         System.out.println(" Hello ");
-        System.out.println("the 'ln' in  sout statement basically adds a '\\n' at end and creates a new line \n");
-        System.out.println("this prints after two lines as the above sout statement has a \\n at the end");
+        System.out.println("the 'ln' in  sout statement basically adds oops_exa.Package_exa.a '\\n' at end and creates oops_exa.Package_exa.a new line \n");
+        System.out.println("this prints after two lines as the above sout statement has oops_exa.Package_exa.a \\n at the end");
 
        // was testing scanner class , no worry
         int a = 10;

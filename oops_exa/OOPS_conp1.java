@@ -1,16 +1,66 @@
+package oops_exa;
 import java.util.Arrays;
 import java.util.Scanner;
 
-class str{
-    String str;
-    int anda;
-    void str(){
+
+class strdfg{
+    String str = "examp";
+    int anda = 10;
+    static int count = 0;
+    static int strdf = 0;
+    static int strfpara = 0;
+    static int stra = 0;
+
+     strdfg(){
+         
         System.out.println(this .str);
         System.out.println(this.anda);
+        strdf++;
     }
+    strdfg(String a , int b){
+        System.out.println(str+ "  bedore change "+ anda);
+         str = a;
+         anda = b;
+         strfpara++;
+        System.out.println(this.anda+ "  strdfg( Para )  using this  "+ this.str);
+        System.out.println(str+"  strdfg( Para )  "+ anda);
+    }
+   void  stra(String a , int b){
+        this.str = a;
+        this.anda = b;
+         stra++;
+       System.out.println(this.anda+ "  stra( )  using this  "+ this.str);
+       System.out.println(str+"  stra( ) normal  "+ anda);
+    }
+    void disp(){
+        System.out.println(str+" "+anda);
 
+        System.out.printf("%s  %d ",this.str,this.anda);
+        System.out.println();
+        count++;
+        System.out.println(": count:  "+count+"   // stra: "+ stra+"  // strdf  "+strdf+ "   //strfpara: "+strfpara);
+    }
     public static void main(String[] args) {
         System.out.println("ptiny");
+        System.out.println(" below is for :::   strdfg s = new strdfg();  ::::    ");
+        strdfg s = new strdfg();
+        System.out.println(" below is for :::  s.disp(); :::::");
+        s.disp();
+        System.out.println(" below is for :::  strdfg s2 = new strdfg(\"hefgh\",800);  :::::");
+        strdfg s2 = new strdfg("hefgh",800);
+        System.out.println(" below is for :::  s2.disp(); :::::");
+        s2.disp();
+        System.out.println(" below is for :::  s.stra(hlo,5000) :::::");
+        s.stra("hlo",5000);
+        System.out.println(" below is for :::  s.disp(); :::::");
+        s.disp();
+        System.out.println(" below is for :::  s2.disp(); :::::");
+        s2.disp();
+        System.out.println(" below is for :::  strdfg s3 = new strdfg(); :::::");
+        strdfg s3 = new strdfg();
+        System.out.println(" below is for ::: s3.disp();  :::::");
+        s3.disp();
+
 
     }
 }
@@ -20,7 +70,7 @@ public class OOPS_conp1 {
         String name ;
         float marks;
         String Subject[] = new String[10];
-        // below is a constructor;
+        // below is oops_exa.Package_exa.a constructor;
         void Student(){
             this.name = "sample name";
             this.marks = 00;
@@ -61,7 +111,7 @@ public class OOPS_conp1 {
             a.rno =  b.rno;
             b.rno=temp.rno;
         }
-        //  below is a constructor that takes a object as input for passing
+        //  below is oops_exa.Package_exa.a constructor that takes oops_exa.Package_exa.a object as input for passing
         void Student(Student sample_Object_name){
           this.name = sample_Object_name.name;
           this.marks = sample_Object_name.marks;
@@ -98,19 +148,19 @@ public class OOPS_conp1 {
         System.out.println(a.rno + "  "+ b.rno);
         s1.swap(a,b);
         System.out.println(a.rno + "  "+ b.rno);
-        // here by using object we have changed values (swaped) of a and b objects  , which is done internally using a function and the result is reflected outside the function
+        // here by using object we have changed values (swaped) of oops_exa.Package_exa.a and b objects  , which is done internally using oops_exa.Package_exa.a function and the result is reflected outside the function
 
-        // below is a swap wxample using primitive types
+        // below is oops_exa.Package_exa.a swap wxample using primitive types
         int c  = 10;
         int d = 20;
         System.out.println(c + "  "+ d);
         swaps(c,d);  // here values are passed to the function but change made internally is not reflected outside the function
         System.out.println(c + "  "+ d);
-        str acd = new str();
+        strdfg acd = new strdfg();
         acd.str = "hello";
         acd.anda = 10;
-        acd.str(); // when defining a class within a class , we use static
-        // we cant use a non static method inside a static method
+        acd.disp(); // when defining oops_exa.Package_exa.a class within oops_exa.Package_exa.a class , we use static
+        // we cant use oops_exa.Package_exa.a non static method inside oops_exa.Package_exa.a static method
         // obj and ref concept is used
 
 //        s2.Student(s1);

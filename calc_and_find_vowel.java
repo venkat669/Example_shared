@@ -37,10 +37,10 @@ public class calc_and_find_vowel {
         }
 
         // to find vowel;
-        System.out.println("give a letter");
+        System.out.println("give oops_exa.Package_exa.a letter");
         char h = sc.next().charAt(0);
         switch(h){
-            case 'a' :
+
             case 'A':
             case 'e':
             case 'E':
