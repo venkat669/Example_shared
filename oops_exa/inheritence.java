@@ -1,6 +1,6 @@
 package oops_exa;
 
-public class inheritence extends OOPS_conp1 {
+public class inheritence extends OOPS_conp1  {
 
 
     public static void main(String[] args) {
@@ -10,6 +10,7 @@ public class inheritence extends OOPS_conp1 {
         st2.Student(st1);
         st2.Display();
         st1.Display();
+
         // this has a  ""   IS-A  "" Relationship
         // here inheritence class inherits function from OOPS_conp1 class
     }
