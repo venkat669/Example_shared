@@ -5,14 +5,6 @@ public class Factions {
     String Special_weapon;
     String Power_lvl;
     static int unit;
-    public static void Factionpower(Factions obj1 , Factions obj2){
-        if( obj1.unit >obj2.unit){
-            System.out.println(" obj 1 is power  ");
-        }
-        else {
-            System.out.println("ob2 2 is power ");
-        }
-    }
 
      Factions(String leadname, String special_weapon, String power_lvl) {
         Leadname = leadname;

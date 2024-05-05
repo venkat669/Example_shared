@@ -1,5 +1,5 @@
 package oops_exa.Package_exa.Fallout;
-
+// below is example of inheritence ( IS - A)
 public class minituemen extends Factions {
     public static   int Settlement ;
 
@@ -20,7 +20,7 @@ public class minituemen extends Factions {
        Factions mint = new minituemen("preston","leser Rifel","weak",190);
 
 //      minituemen min =new minituemen(100);
-      mint.disp();;
+      mint.disp();;   // disp function is derived from factions
         System.out.println(mint);
 
     }
