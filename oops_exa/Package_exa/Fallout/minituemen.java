@@ -21,6 +21,11 @@ public class minituemen extends Factions {
 
 //      minituemen min =new minituemen(100);
       mint.disp();;   // disp function is derived from factions
+        mint.Overload_Method(10,3.14f);
+        mint.Overload_Method(40,20);
+        mint.Overload_Method(40,40^40000000);
+        mint.Overload_Method(40, (long) 92233720368547750E5);
+        mint.Overload_Method(40," str ");   //   example for method overloading   (   via inheritence )
         System.out.println(mint);
 
     }
