@@ -1,5 +1,6 @@
 package oops_exa.Package_exa.Fallout;
 // below is example of inheritence ( IS - A)
+// this file also contains example of method overloading
 public class minituemen extends Factions {
     public static   int Settlement ;
 
