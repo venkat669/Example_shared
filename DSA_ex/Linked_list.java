@@ -35,19 +35,24 @@ public class Linked_list {
         current.data = data;
     }
     void Deletenode(int indx){
-        current = head;
-        nodes prev;
-        prev = head;
-        for (int i = 0; i < indx; i++) {
-            current = current.nxt;
-            if(i==0){
-                continue;
-            }
-            else{
-                prev = prev.nxt;
-            }
+        current = head;indx--;
+        if(indx==0){
+            head = head.nxt;
         }
-        prev.nxt = current.nxt;
+        else {
+
+            nodes prev;
+            prev = head;
+            for (int i = 0; i < indx; i++) {
+                current = current.nxt;
+                if (i == 0) {
+                    continue;
+                } else {
+                    prev = prev.nxt;
+                }
+            }
+            prev.nxt = current.nxt;
+        }
     }
     void  disp() {
         current = head;
@@ -68,7 +73,7 @@ public class Linked_list {
         list.disp();
         list.updatenode(80,2);
         list.disp();
-        list.Deletenode(3);
+        list.Deletenode(4);
         list.disp();
     }
 }
